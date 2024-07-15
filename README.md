@@ -11,4 +11,5 @@ Principais mudanças na versão 18 em relação ao curso:
 - Utilização dos componentes no padrão standalone ao invés de módulos;
 - Atualização para o bootstrap 5;
 - Mudança dos ícones para o novo padrão do Bootstrap Icons 5;
+- Efetuadas mudanças referentes ao HttpClient (provideHttpClient(withFetch()) e provideHttpClientTesting);
 - Efetuado tratamento na diretiva NumeroDirective para manter o ponto na posição correta ao adicionar letras no início do texto. Da forma como estava no curso se estivesse com o valor '123.456' e adicionasse um 'a' no início (ficando 'a123.456') a diretiva tirava a letra, porém ficava '1234.56' pois armazenava a posição do ponto em relação ao conteúdo antigo;
